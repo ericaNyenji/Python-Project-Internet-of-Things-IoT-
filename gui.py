@@ -4,7 +4,7 @@ import random
 import time
 import threading
 from queue import Queue
-from Main import AutomationSystem, SmartLight, SecurityCamera, Thermostat
+from main import AutomationSystem, SmartLight, SecurityCamera, Thermostat
 
 def run_simulation(automation_system, queue):
     for _ in range(5):
