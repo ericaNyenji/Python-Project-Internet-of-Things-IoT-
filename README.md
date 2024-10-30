@@ -1,3 +1,7 @@
+A smart home simulation system with components structured across various files for different functionalities:
+main.py for device simulation logic, 
+a Flask web server for web-based interaction, 
+and a Tkinter-based GUI for real-time monitoring. 
 This project defines an Automation System for a smart home, which includes smart lights, a thermostat, and a security camera.
 The key components and functionalities are:
 SmartLight can turn on/off, adjust brightness, and dim gradually, with a randomized state change feature.
